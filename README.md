@@ -1,5 +1,5 @@
 # Ball-Plate controller
-Design of different types of basic control schemes for the Ball-Plate problem.
+Design of different basic control schemes for the Ball-Plate problem.
 
 <p align="center">
   <img src="Ball_Plate_animation.gif">
@@ -8,8 +8,6 @@ Design of different types of basic control schemes for the Ball-Plate problem.
 ## Prerequisites
 - MATLAB R2018b
 - Simulink
-- Simscape
-- Simscape Multibody
 
 ## Contents
 **Files**:
@@ -29,8 +27,9 @@ Design of different types of basic control schemes for the Ball-Plate problem.
   - LQR-Based Controller with a disturbance observer in case of constant disturbance
  
 ## How to run it
-1. Run **Ball_plate_library.m**
-2. Open one of the Simulink schemes and test the performance of the implemented controller 
+1. Install **Simscape** and **Simscape Multibody** tools from [Add-On Explorer](https://it.mathworks.com/products/matlab/add-on-explorer.html)
+2. Run **Ball_plate_library.m**
+3. Open one of the Simulink schemes and test the performance of the implemented controller 
 
 ## Autor
 **Francesca Cantoni:** 	francescacantoni95@gmail.com
